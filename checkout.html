@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Spartan' rel='stylesheet'>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<script src="main.js"></script>
+
+<body onload="setOrderSummary()">
+    <header>
+        <div class="logo">
+            <a href="">
+                <img src="img/logo.png" alt="">
+            </a>
+        </div>
+            <div class="links">
+                <ul id="navbar">
+                    <span><i class="fa-solid fa-xmark" onclick="Toogle2() " id="cancel" ></i></span>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./shop.html">Shop</a></li>
+                    <li><a href="./blog.html">Blog</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                    <li ><a href="./cart.html"><i class="fa fa-bag-shopping xl" ></i></a></li>
+                </ul>
+            </div>
+            <div class="sidebar-btn">
+                <i class="fas fa-outdent fad" id="menu" onclick="Toogle()"></i>
+                <li><a href=""><i class="fa fa-bag-shopping fad"></i></a></li>
+            </div>
+    </header>
+    
+
+    <section id="checkout">
+        <div class="checkout-form-cont">
+        <h2>Checkout</h2>
+        <h4>Please Fill The Checkout Form.....</h4>
+        <div class="checkout-form">
+            <label for="">Name:</label>
+            <input type="text"   id="name" required placeholder="Enter Your Fullname">
+            <label for="">Email Address:</label >
+            <input type="email"  id="email" required placeholder="Enter Your Email Address">
+            <label for="">Phone Number</label>
+            <input type="number" id="phone" required placeholder="Phone Number">
+            <label for="">Shipping Address:</label>
+            <input type="text" id="address" required placeholder="Shipping Address">
+            <div >
+                <button onclick="deliver()">Continue</button>
+            </div>
+            <span>click here to continue your shopping</span>
+        </div>
+    </div>
+    <div class="checkout-order-summary">
+        <h2>Order Summary</h2>
+        <span>No. of Items:</span>
+        <h5 id="items">2</h5>
+        <span>Toatl Price</span>
+        <h5 id="prices">$999</h5>
+        <span>Delivery Details</span>
+        <h5>Delivered By: <span>As Soon As Possible</span></h5>
+        <h5>Delivery Rate: Free Till 18th of this Month</h5>
+        <span>Discount</span>
+        <h5>No Discount Available</h5>
+
+    </div>
+    </section>
+ <section id="newsletter">
+    <div class="newsletter-text">
+        <h4>Sign Up for Newsletter</h4>
+        <p>Get E-mail updates about our latest shop and <span>latest offers .</span></p>
+    </div>
+    <div class="newsletter-input">
+        <input type="email" name="" id="" placeholder="Sign Up for Updates">
+        <button onclick="submitDetails()">Sing Up</button>
+    </div>
+ </section>
+ <footer>
+    <div class="col">
+        <img src="img/logo.png" alt="Logo">
+        <h4>Contact</h4>
+        <p><strong>Address:</strong> 562 Wellington Road, Street 32</p>
+        <p><strong>Phone:</strong> +01 2222 365/(+91)0123456789</p>
+        <p><strong>Hours:</strong> 8:00 - 10:00</p>
+        <div class="follow">
+            <h4>Follow us</h4>
+            <div class="links">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-youtube"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-github"></i>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <h4>About</h4>
+        <div class="cols">
+            <a href="">About us</a>
+            <a href="">Delievery Information</a>
+            <a href="">Privacy Policy</a>
+            <a href="">Conatct</a>
+            <a href="">Blog</a>
+        </div>
+    </div>
+    <div class="col">
+        <h4>About</h4>
+        <div class="cols">
+            <a href="">About us</a>
+            <a href="">Delievery Information</a>
+            <a href="">Privacy Policy</a>
+            <a href="">Conatct</a>
+            <a href="">Blog</a>
+        </div>
+    </div>
+    <div class="col install">
+        <h4>Install App</h4>
+        <p>From App Store or Google Play</p>
+        <div class="row">
+            <img src="img/pay/app.jpg" alt="">
+            <img src="img/pay/play.jpg" alt="">
+        </div>
+        <p>Secured Payment Gateway.</p>
+        <img src="img/pay/pay.png" alt="">
+    </div>
+    <div class="copyright">
+        <p>© 2024, Rahul Adhikari - Html Css Js Ecommerce</p>
+    </div>
+ </footer>
+</body>
+</html>

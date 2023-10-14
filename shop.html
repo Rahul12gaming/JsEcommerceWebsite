@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Spartan' rel='stylesheet'>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<script src="main.js"></script>
+<body>
+    <header>
+        <div class="logo">
+            <a href="">
+                <img src="img/logo.png" alt="">
+            </a>
+        </div>
+            <div class="links">
+                <ul id="navbar">
+                    <span><i class="fa-solid fa-xmark" onclick="Toogle2() " id="cancel" ></i></span>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="./blog.html">Blog</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                    <li ><a href="./cart.html"><i class="fa fa-bag-shopping xl" ></i></a></li>
+                </ul>
+            </div>
+            <div class="sidebar-btn">
+                <i class="fas fa-outdent fad" id="menu" onclick="Toogle()"></i>
+                <li><a href=""><i class="fa fa-bag-shopping fad"></i></a></li>
+            </div>
+    </header>
+    
+
+    
+
+<section class="banner4">
+    <h2>#shop now</h2>
+    <p>Sale is Live!</p>
+</section>
+
+
+<section id="product-container"> 
+    <h1>Featured Product</h1>
+    <p>our top featured product listed below.</p>
+    <div class="products">
+        <div class="product" onclick="product('img/products/f1.jpg')" >
+            <img src="img/products/f1.jpg" alt="Product" id="productImg">
+            <div class="des">
+                <span>adidas </span>
+                <h5>    Foonist T-shirt</h5>
+                <div class="start">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <h4>$99</h4>
+            </div>
+            <a href=""><i class="fa fa-shopping-cart cart"></i></a>
+        </div>
+        <div class="product"  onclick="product('img/products/f2.jpg')">
+            <img src="img/products/f2.jpg" alt="Product">
+            <div class="des">
+                <span>adidas </span>
+                <h5>    Foonist T-shirt</h5>
+                <div class="start">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <h4>$99</h4>
+            </div>
+            <a href=""><i class="fa fa-shopping-cart cart"></i></a>
+        </div>
+        <div class="product" onclick="product('img/products/f3.jpg')">
+            <img src="img/products/f3.jpg" alt="Product" >
+            <div class="des">
+                <span>adidas </span>
+                <h5>    Foonist T-shirt</h5>
+                <div class="start">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <h4>$99</h4>
+            </div>
+            <a href=""><i class="fa fa-shopping-cart cart"></i></a>
+        </div>
+        <div class="product" onclick="product('img/products/f4.jpg')">
+            <img src="img/products/f4.jpg" alt="Product">
+            <div class="des">
+                <span>adidas </span>
+                <h5>    Foonist T-shirt</h5>
+                <div class="start">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <h4>$99</h4>
+            </div>
+            <a href=""><i class="fa fa-shopping-cart cart"></i></a>
+        </div>
+        <div class="product" onclick="product('img/products/f5.jpg')">
+            <img src="img/products/f5.jpg" alt="Product">
+            <div class="des">
+                <span>adidas </span>
+                <h5>    Foonist T-shirt</h5>
+                <div class="start">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <h4>$99</h4>
+            </div>
+            <a href=""><i class="fa fa-shopping-cart cart"></i></a>
+        </div>
+        <div class="product" onclick="product('img/products/f6.jpg')">
+            <img src="img/products/f6.jpg" alt="Product">
+            <div class="des">
+                <span>adidas </span>
+                <h5>    Foonist T-shirt</h5>
+                <div class="start">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <h4>$99</h4>
+            </div>
+            <a href=""><i class="fa fa-shopping-cart cart"></i></a>
+        </div>
+        <div class="product" onclick="product('img/products/f7.jpg')">
+            <img src="img/products/f7.jpg" alt="Product">
+            <div class="des">
+                <span>adidas </span>
+                <h5>    Foonist T-shirt</h5>
+                <div class="start">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <h4>$99</h4>
+            </div>
+            <a href=""><i class="fa fa-shopping-cart cart"></i></a>
+        </div>
+        <div class="product" onclick="product('img/products/f8.jpg')">
+            <img src="img/products/f8.jpg" alt="Product">
+            <div class="des">
+                <span>adidas </span>
+                <h5>    Foonist T-shirt</h5>
+                <div class="start">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <h4>$99</h4>
+            </div>
+            <a href=""><i class="fa fa-shopping-cart cart"></i></a>
+        </div>
+
+        <div class="product" onclick="product('img/products/n1.jpg')">
+            <img src="img/products/n1.jpg" alt="Product">
+            <div class="des">
+                <span>adidas </span>
+                <h5>    Foonist T-shirt</h5>
+                <div class="start">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <h4>$99</h4>
+            </div>
+            <a href=""><i class="fa fa-shopping-cart cart"></i></a>
+        </div>
+        <div class="product" onclick="product('img/products/n2.jpg')">
+            <img src="img/products/n2.jpg" alt="Product">
+            <div class="des">
+                <span>adidas </span>
+                <h5>    Foonist T-shirt</h5>
+                <div class="start">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <h4>$99</h4>
+            </div>
+            <a href=""><i class="fa fa-shopping-cart cart"></i></a>
+        </div>
+        <div class="product" onclick="product('img/products/n3.jpg')">
+            <img src="img/products/n3.jpg" alt="Product">
+            <div class="des">
+                <span>adidas </span>
+                <h5>    Foonist T-shirt</h5>
+                <div class="start">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <h4>$99</h4>
+            </div>
+            <a href=""><i class="fa fa-shopping-cart cart"></i></a>
+        </div>
+        <div class="product" onclick="product('img/products/n4.jpg')">
+            <img src="img/products/n4.jpg" alt="Product">
+            <div class="des">
+                <span>adidas </span>
+                <h5>    Foonist T-shirt</h5>
+                <div class="start">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <h4>$99</h4>
+            </div>
+            <a href=""><i class="fa fa-shopping-cart cart"></i></a>
+        </div>
+        <div class="product" onclick="product('img/products/n5.jpg')">
+            <img src="img/products/n5.jpg" alt="Product">
+            <div class="des">
+                <span>adidas </span>
+                <h5>    Foonist T-shirt</h5>
+                <div class="start">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <h4>$99</h4>
+            </div>
+            <a href=""><i class="fa fa-shopping-cart cart"></i></a>
+        </div>
+        <div class="product" onclick="product('img/products/n6.jpg')">
+            <img src="img/products/n6.jpg" alt="Product">
+            <div class="des">
+                <span>adidas </span>
+                <h5>    Foonist T-shirt</h5>
+                <div class="start">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <h4>$99</h4>
+            </div>
+            <a href=""><i class="fa fa-shopping-cart cart"></i></a>
+        </div>
+        <div class="product" onclick="product('img/products/n7.jpg')">
+            <img src="img/products/n7.jpg" alt="Product">
+            <div class="des">
+                <span>adidas </span>
+                <h5>    Foonist T-shirt</h5>
+                <div class="start">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <h4>$99</h4>
+            </div>
+            <a href=""><i class="fa fa-shopping-cart cart"></i></a>
+        </div>
+        <div class="product" onclick="product('img/products/n8.jpg')">
+            <img src="img/products/n8.jpg" alt="Product">
+            <div class="des">
+                <span>adidas </span>
+                <h5>    Foonist T-shirt</h5>
+                <div class="start">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <h4>$99</h4>
+            </div>
+            <a href=""><i class="fa fa-shopping-cart cart"></i></a>
+        </div>
+    </div>
+ </section>
+
+    
+ <section id="newsletter">
+    <div class="newsletter-text">
+        <h4>Sign Up for Newsletter</h4>
+        <p>Get E-mail updates about our latest shop and <span>latest offers .</span></p>
+    </div>
+    <div class="newsletter-input">
+        <input type="email" name="" id="" placeholder="Sign Up for Updates">
+        <button>Sing Up</button>
+    </div>
+ </section>
+ <footer>
+    <div class="col">
+        <img src="img/logo.png" alt="Logo">
+        <h4>Contact</h4>
+        <p><strong>Address:</strong> 562 Wellington Road, Street 32</p>
+        <p><strong>Phone:</strong> +01 2222 365/(+91)0123456789</p>
+        <p><strong>Hours:</strong> 8:00 - 10:00</p>
+        <div class="follow">
+            <h4>Follow us</h4>
+            <div class="links">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-youtube"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-github"></i>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <h4>About</h4>
+        <div class="cols">
+            <a href="">About us</a>
+            <a href="">Delievery Information</a>
+            <a href="">Privacy Policy</a>
+            <a href="">Conatct</a>
+            <a href="">Blog</a>
+        </div>
+    </div>
+    <div class="col">
+        <h4>About</h4>
+        <div class="cols">
+            <a href="">About us</a>
+            <a href="">Delievery Information</a>
+            <a href="">Privacy Policy</a>
+            <a href="">Conatct</a>
+            <a href="">Blog</a>
+        </div>
+    </div>
+    <div class="col install">
+        <h4>Install App</h4>
+        <p>From App Store or Google Play</p>
+        <div class="row">
+            <img src="img/pay/app.jpg" alt="">
+            <img src="img/pay/play.jpg" alt="">
+        </div>
+        <p>Secured Payment Gateway.</p>
+        <img src="img/pay/pay.png" alt="">
+    </div>
+    <div class="copyright">
+        <p>© 2024, Rahul Adhikari - Html Css Js Ecommerce</p>
+    </div>
+ </footer>
+</body>
+</html>
